@@ -10,7 +10,7 @@ class MyCustomer {
     
     func printOwing() {
         printBanner()
-        printDetail(getOutstanding())
+        printDetail(outstanding: getOutstanding())
     }
     
     func printBanner() {
