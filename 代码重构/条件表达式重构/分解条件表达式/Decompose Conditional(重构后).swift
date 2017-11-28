@@ -1,11 +1,11 @@
 class Commission {
     
     func fetchCommission(money: Double, day: Int) -> Double {
-        if isALotOfMoney(money, day: day)  {
-            return aLotOfMoney(money, day: day)
+        if isALotOfMoney(money: money, day: day)  {
+            return aLotOfMoney(money: money, day: day)
         }
         
-        return littleMoney(money)
+        return littleMoney(money: money)
     }
     
     private func isALotOfMoney(money: Double, day: Int) -> Bool {
