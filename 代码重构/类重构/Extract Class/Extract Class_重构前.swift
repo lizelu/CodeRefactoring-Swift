@@ -8,7 +8,7 @@ class Employee {
     var officeAreaCode: String
     var officeNumber: String
     
-    init(name:String, officeAreaCode: String, officeNumber: String) {
+    init(name: String, officeAreaCode: String, officeNumber: String) {
         self.name = name
         self.officeAreaCode = officeAreaCode
         self.officeNumber = officeNumber
